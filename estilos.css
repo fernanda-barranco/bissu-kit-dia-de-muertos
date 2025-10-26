@@ -1,0 +1,220 @@
+/* Estructura general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #ffa733; /* Naranja */
+    padding: 25px;
+}
+
+/* Header */
+header {
+    background-color: #000000; /* Negro */
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+}
+
+/* Navegación */
+nav {
+    background-color: #00ffff; /* Cian */
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de contenido */
+section {
+    background-color: #ffffff; /* Blanco */
+    padding: 25px;
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-kit {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #fc0067; /* Rosa */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: #ff4c8f;
+}
+
+/* Footer */
+footer {
+    background-color: #fc0067; /* Rosa fuerte */
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+/* --- Tutoriales --- */
+.tutoriales {
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: center;
+}
+
+.tutoriales h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.tutorial {
+    margin-bottom: 40px;
+}
+
+.imagen-tutorial {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imagen-tutorial:hover {
+    transform: scale(1.05);
+    width: 150px;
+}
+
+.tutorial h3 {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+/* --- Compra en línea --- */
+.compra {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+.compra h2 {
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.imagen-compra {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+}
+
+.boton-compra {
+    background-color: #ff0099;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-compra:hover {
+    background-color: #ff55bb;
+}
+
+.envio {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.formulario-compra {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-compra h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #000;
+}
+
+.formulario-compra label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formulario-compra input,
+.formulario-compra select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.boton-enviar {
+    display: block;
+    background-color: #00c6d7;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    margin: 20px auto 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: #00a8b5;
+}
+
